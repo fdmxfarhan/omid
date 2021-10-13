@@ -57,13 +57,13 @@ Server_Addr.sin_port = htons(Port_Num);
 
 // Set the TTL for the sends using a setsockopt()
 TTL = 1;
-//retcode = setsockopt(Multi_Server_Sock, IPPROTO_IP, IP_MULTICAST_TTL,
-//	(char *)&TTL, sizeof(TTL));
-//if (retcode < 0)
-//{
-//	printf("*** ERROR - setsockopt() failed with retcode = %d \n", retcode);
-//	return;
-//}
+retcode = setsockopt(Multi_Server_Sock, IPPROTO_IP, IP_MULTICAST_TTL,
+	(char *)&TTL, sizeof(TTL));
+if (retcode < 0)
+{
+	printf("*** ERROR - setsockopt() failed with retcode = %d \n", retcode);
+	return;
+}
 // Set addr_len
 addr_len = sizeof(Server_Addr);
 printf("*** ready to Sending multicast datagrams to '%d' (port = %d) \n",
