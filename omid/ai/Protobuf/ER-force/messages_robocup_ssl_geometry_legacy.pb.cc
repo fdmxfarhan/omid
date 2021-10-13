@@ -62,12 +62,13 @@ static ::PROTOBUF_NAMESPACE_ID::Metadata file_level_metadata_messages_5frobocup_
 static constexpr ::PROTOBUF_NAMESPACE_ID::EnumDescriptor const** file_level_enum_descriptors_messages_5frobocup_5fssl_5fgeometry_5flegacy_2eproto = nullptr;
 static constexpr ::PROTOBUF_NAMESPACE_ID::ServiceDescriptor const** file_level_service_descriptors_messages_5frobocup_5fssl_5fgeometry_5flegacy_2eproto = nullptr;
 
-const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_messages_5frobocup_5fssl_5fgeometry_5flegacy_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
+const uint32_t TableStruct_messages_5frobocup_5fssl_5fgeometry_5flegacy_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
   PROTOBUF_FIELD_OFFSET(::RoboCup2014Legacy::Geometry::SSL_GeometryFieldSize, _has_bits_),
   PROTOBUF_FIELD_OFFSET(::RoboCup2014Legacy::Geometry::SSL_GeometryFieldSize, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
+  ~0u,  // no _inlined_string_donated_
   PROTOBUF_FIELD_OFFSET(::RoboCup2014Legacy::Geometry::SSL_GeometryFieldSize, line_width_),
   PROTOBUF_FIELD_OFFSET(::RoboCup2014Legacy::Geometry::SSL_GeometryFieldSize, field_length_),
   PROTOBUF_FIELD_OFFSET(::RoboCup2014Legacy::Geometry::SSL_GeometryFieldSize, field_width_),
@@ -101,14 +102,15 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_messages_5frobocup_5fssl_5fgeo
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
+  ~0u,  // no _inlined_string_donated_
   PROTOBUF_FIELD_OFFSET(::RoboCup2014Legacy::Geometry::SSL_GeometryData, field_),
   PROTOBUF_FIELD_OFFSET(::RoboCup2014Legacy::Geometry::SSL_GeometryData, calib_),
   0,
   ~0u,
 };
 static const ::PROTOBUF_NAMESPACE_ID::internal::MigrationSchema schemas[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, 19, sizeof(::RoboCup2014Legacy::Geometry::SSL_GeometryFieldSize)},
-  { 33, 40, sizeof(::RoboCup2014Legacy::Geometry::SSL_GeometryData)},
+  { 0, 20, -1, sizeof(::RoboCup2014Legacy::Geometry::SSL_GeometryFieldSize)},
+  { 34, 42, -1, sizeof(::RoboCup2014Legacy::Geometry::SSL_GeometryData)},
 };
 
 static ::PROTOBUF_NAMESPACE_ID::Message const * const file_default_instances[] = {
@@ -254,7 +256,7 @@ void SSL_GeometryFieldSize::SetCachedSize(int size) const {
 
 void SSL_GeometryFieldSize::Clear() {
 // @@protoc_insertion_point(message_clear_start:RoboCup2014Legacy.Geometry.SSL_GeometryFieldSize)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
@@ -277,149 +279,163 @@ const char* SSL_GeometryFieldSize::_InternalParse(const char* ptr, ::PROTOBUF_NA
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   _Internal::HasBits has_bits{};
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+    uint32_t tag;
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // required int32 line_width = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 8)) {
           _Internal::set_has_line_width(&has_bits);
-          line_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          line_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required int32 field_length = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 16)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 16)) {
           _Internal::set_has_field_length(&has_bits);
-          field_length_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          field_length_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required int32 field_width = 3;
       case 3:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 24)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 24)) {
           _Internal::set_has_field_width(&has_bits);
-          field_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          field_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required int32 boundary_width = 4;
       case 4:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 32)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 32)) {
           _Internal::set_has_boundary_width(&has_bits);
-          boundary_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          boundary_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required int32 referee_width = 5;
       case 5:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 40)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 40)) {
           _Internal::set_has_referee_width(&has_bits);
-          referee_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          referee_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required int32 goal_width = 6;
       case 6:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 48)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 48)) {
           _Internal::set_has_goal_width(&has_bits);
-          goal_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          goal_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required int32 goal_depth = 7;
       case 7:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 56)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 56)) {
           _Internal::set_has_goal_depth(&has_bits);
-          goal_depth_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          goal_depth_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required int32 goal_wall_width = 8;
       case 8:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 64)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 64)) {
           _Internal::set_has_goal_wall_width(&has_bits);
-          goal_wall_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          goal_wall_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required int32 center_circle_radius = 9;
       case 9:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 72)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 72)) {
           _Internal::set_has_center_circle_radius(&has_bits);
-          center_circle_radius_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          center_circle_radius_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required int32 defense_radius = 10;
       case 10:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 80)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 80)) {
           _Internal::set_has_defense_radius(&has_bits);
-          defense_radius_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          defense_radius_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required int32 defense_stretch = 11;
       case 11:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 88)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 88)) {
           _Internal::set_has_defense_stretch(&has_bits);
-          defense_stretch_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          defense_stretch_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required int32 free_kick_from_defense_dist = 12;
       case 12:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 96)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 96)) {
           _Internal::set_has_free_kick_from_defense_dist(&has_bits);
-          free_kick_from_defense_dist_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          free_kick_from_defense_dist_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required int32 penalty_spot_from_field_line_dist = 13;
       case 13:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 104)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 104)) {
           _Internal::set_has_penalty_spot_from_field_line_dist(&has_bits);
-          penalty_spot_from_field_line_dist_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          penalty_spot_from_field_line_dist_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required int32 penalty_line_from_spot_dist = 14;
       case 14:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 112)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 112)) {
           _Internal::set_has_penalty_line_from_spot_dist(&has_bits);
-          penalty_line_from_spot_dist_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          penalty_line_from_spot_dist_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag == 0) || ((tag & 7) == 4)) {
-          CHK_(ptr);
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
+message_done:
   _has_bits_.Or(has_bits);
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* SSL_GeometryFieldSize::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* SSL_GeometryFieldSize::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:RoboCup2014Legacy.Geometry.SSL_GeometryFieldSize)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   cached_has_bits = _has_bits_[0];
@@ -521,100 +537,72 @@ size_t SSL_GeometryFieldSize::RequiredFieldsByteSizeFallback() const {
 
   if (_internal_has_line_width()) {
     // required int32 line_width = 1;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_line_width());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_line_width());
   }
 
   if (_internal_has_field_length()) {
     // required int32 field_length = 2;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_field_length());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_field_length());
   }
 
   if (_internal_has_field_width()) {
     // required int32 field_width = 3;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_field_width());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_field_width());
   }
 
   if (_internal_has_boundary_width()) {
     // required int32 boundary_width = 4;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_boundary_width());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_boundary_width());
   }
 
   if (_internal_has_referee_width()) {
     // required int32 referee_width = 5;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_referee_width());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_referee_width());
   }
 
   if (_internal_has_goal_width()) {
     // required int32 goal_width = 6;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_goal_width());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_goal_width());
   }
 
   if (_internal_has_goal_depth()) {
     // required int32 goal_depth = 7;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_goal_depth());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_goal_depth());
   }
 
   if (_internal_has_goal_wall_width()) {
     // required int32 goal_wall_width = 8;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_goal_wall_width());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_goal_wall_width());
   }
 
   if (_internal_has_center_circle_radius()) {
     // required int32 center_circle_radius = 9;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_center_circle_radius());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_center_circle_radius());
   }
 
   if (_internal_has_defense_radius()) {
     // required int32 defense_radius = 10;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_defense_radius());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_defense_radius());
   }
 
   if (_internal_has_defense_stretch()) {
     // required int32 defense_stretch = 11;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_defense_stretch());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_defense_stretch());
   }
 
   if (_internal_has_free_kick_from_defense_dist()) {
     // required int32 free_kick_from_defense_dist = 12;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_free_kick_from_defense_dist());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_free_kick_from_defense_dist());
   }
 
   if (_internal_has_penalty_spot_from_field_line_dist()) {
     // required int32 penalty_spot_from_field_line_dist = 13;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_penalty_spot_from_field_line_dist());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_penalty_spot_from_field_line_dist());
   }
 
   if (_internal_has_penalty_line_from_spot_dist()) {
     // required int32 penalty_line_from_spot_dist = 14;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_penalty_line_from_spot_dist());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_penalty_line_from_spot_dist());
   }
 
   return total_size;
@@ -625,89 +613,55 @@ size_t SSL_GeometryFieldSize::ByteSizeLong() const {
 
   if (((_has_bits_[0] & 0x00003fff) ^ 0x00003fff) == 0) {  // All required fields are present.
     // required int32 line_width = 1;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_line_width());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_line_width());
 
     // required int32 field_length = 2;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_field_length());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_field_length());
 
     // required int32 field_width = 3;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_field_width());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_field_width());
 
     // required int32 boundary_width = 4;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_boundary_width());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_boundary_width());
 
     // required int32 referee_width = 5;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_referee_width());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_referee_width());
 
     // required int32 goal_width = 6;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_goal_width());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_goal_width());
 
     // required int32 goal_depth = 7;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_goal_depth());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_goal_depth());
 
     // required int32 goal_wall_width = 8;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_goal_wall_width());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_goal_wall_width());
 
     // required int32 center_circle_radius = 9;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_center_circle_radius());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_center_circle_radius());
 
     // required int32 defense_radius = 10;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_defense_radius());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_defense_radius());
 
     // required int32 defense_stretch = 11;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_defense_stretch());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_defense_stretch());
 
     // required int32 free_kick_from_defense_dist = 12;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_free_kick_from_defense_dist());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_free_kick_from_defense_dist());
 
     // required int32 penalty_spot_from_field_line_dist = 13;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_penalty_spot_from_field_line_dist());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_penalty_spot_from_field_line_dist());
 
     // required int32 penalty_line_from_spot_dist = 14;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_penalty_line_from_spot_dist());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32SizePlusOne(this->_internal_penalty_line_from_spot_dist());
 
   } else {
     total_size += RequiredFieldsByteSizeFallback();
   }
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_cached_size_);
 }
 
 const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SSL_GeometryFieldSize::_class_data_ = {
@@ -716,8 +670,8 @@ const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SSL_GeometryFieldSize::_class_
 };
 const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*SSL_GeometryFieldSize::GetClassData() const { return &_class_data_; }
 
-void SSL_GeometryFieldSize::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message*to,
-                      const ::PROTOBUF_NAMESPACE_ID::Message&from) {
+void SSL_GeometryFieldSize::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message* to,
+                      const ::PROTOBUF_NAMESPACE_ID::Message& from) {
   static_cast<SSL_GeometryFieldSize *>(to)->MergeFrom(
       static_cast<const SSL_GeometryFieldSize &>(from));
 }
@@ -726,7 +680,7 @@ void SSL_GeometryFieldSize::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message*to,
 void SSL_GeometryFieldSize::MergeFrom(const SSL_GeometryFieldSize& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:RoboCup2014Legacy.Geometry.SSL_GeometryFieldSize)
   GOOGLE_DCHECK_NE(&from, this);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   cached_has_bits = from._has_bits_[0];
@@ -883,7 +837,7 @@ void SSL_GeometryData::SetCachedSize(int size) const {
 
 void SSL_GeometryData::Clear() {
 // @@protoc_insertion_point(message_clear_start:RoboCup2014Legacy.Geometry.SSL_GeometryData)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
@@ -901,19 +855,20 @@ const char* SSL_GeometryData::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPA
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   _Internal::HasBits has_bits{};
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+    uint32_t tag;
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // required .RoboCup2014Legacy.Geometry.SSL_GeometryFieldSize field = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 10)) {
           ptr = ctx->ParseMessage(_internal_mutable_field(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // repeated .SSL_GeometryCameraCalibration calib = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 18)) {
           ptr -= 1;
           do {
             ptr += 1;
@@ -921,36 +876,37 @@ const char* SSL_GeometryData::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPA
             CHK_(ptr);
             if (!ctx->DataAvailable(ptr)) break;
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<18>(ptr));
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag == 0) || ((tag & 7) == 4)) {
-          CHK_(ptr);
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
+message_done:
   _has_bits_.Or(has_bits);
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* SSL_GeometryData::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* SSL_GeometryData::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:RoboCup2014Legacy.Geometry.SSL_GeometryData)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   cached_has_bits = _has_bits_[0];
@@ -988,7 +944,7 @@ size_t SSL_GeometryData::ByteSizeLong() const {
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
         *field_);
   }
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
@@ -999,13 +955,7 @@ size_t SSL_GeometryData::ByteSizeLong() const {
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_cached_size_);
 }
 
 const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SSL_GeometryData::_class_data_ = {
@@ -1014,8 +964,8 @@ const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SSL_GeometryData::_class_data_
 };
 const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*SSL_GeometryData::GetClassData() const { return &_class_data_; }
 
-void SSL_GeometryData::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message*to,
-                      const ::PROTOBUF_NAMESPACE_ID::Message&from) {
+void SSL_GeometryData::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message* to,
+                      const ::PROTOBUF_NAMESPACE_ID::Message& from) {
   static_cast<SSL_GeometryData *>(to)->MergeFrom(
       static_cast<const SSL_GeometryData &>(from));
 }
@@ -1024,7 +974,7 @@ void SSL_GeometryData::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message*to,
 void SSL_GeometryData::MergeFrom(const SSL_GeometryData& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:RoboCup2014Legacy.Geometry.SSL_GeometryData)
   GOOGLE_DCHECK_NE(&from, this);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   calib_.MergeFrom(from.calib_);
@@ -1043,7 +993,8 @@ void SSL_GeometryData::CopyFrom(const SSL_GeometryData& from) {
 
 bool SSL_GeometryData::IsInitialized() const {
   if (_Internal::MissingRequiredFields(_has_bits_)) return false;
-  if (!::PROTOBUF_NAMESPACE_ID::internal::AllAreInitialized(calib_)) return false;
+  if (!::PROTOBUF_NAMESPACE_ID::internal::AllAreInitialized(calib_))
+    return false;
   if (_internal_has_field()) {
     if (!field_->IsInitialized()) return false;
   }

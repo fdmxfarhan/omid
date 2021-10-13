@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/FieldGeometry.h
+/home/mhz/hello/omid/omid/ai/FieldGeometry.h
 geometry.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/geometry.h
+/home/mhz/hello/omid/omid/ai/geometry.h
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/GL/glut.h
+/home/mhz/hello/omid/omid/ai/GL/glut.h
 windows.h
 -
 /usr/include/GL/gl.h
@@ -22,55 +22,55 @@ windows.h
 /usr/include/GL/freeglut_std.h
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/GameState.h
+/home/mhz/hello/omid/omid/ai/GameState.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/HandleMainThreadFunctions.cpp
+/home/mhz/hello/omid/omid/ai/HandleMainThreadFunctions.cpp
 world.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/world.h
+/home/mhz/hello/omid/omid/ai/world.h
 RRT.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/RRT.h
+/home/mhz/hello/omid/omid/ai/RRT.h
 MotionControl.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/MotionControl.h
+/home/mhz/hello/omid/omid/ai/MotionControl.h
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 HighLevel.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/HighLevel.h
+/home/mhz/hello/omid/omid/ai/HighLevel.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/HighLevel.cpp
+/home/mhz/hello/omid/omid/ai/HighLevel.cpp
 HighLevel.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/HighLevel.h
+/home/mhz/hello/omid/omid/ai/HighLevel.h
 world.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/world.h
+/home/mhz/hello/omid/omid/ai/world.h
 geometry.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/geometry.h
+/home/mhz/hello/omid/omid/ai/geometry.h
 GameState.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/GameState.h
+/home/mhz/hello/omid/omid/ai/GameState.h
 RRT.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/RRT.h
+/home/mhz/hello/omid/omid/ai/RRT.h
 stdint.h
 -
 stdio.h
 -
 GL/glut.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/GL/glut.h
+/home/mhz/hello/omid/omid/ai/GL/glut.h
 graphical/glframe.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glframe.h
+/home/mhz/hello/omid/omid/ai/graphical/glframe.h
 cmath
 -
 Referee.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Referee.h
+/home/mhz/hello/omid/omid/ai/Referee.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/HighLevel.h
+/home/mhz/hello/omid/omid/ai/HighLevel.h
 estimation.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/estimation.h
+/home/mhz/hello/omid/omid/ai/estimation.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/MotionControl.cpp
+/home/mhz/hello/omid/omid/ai/MotionControl.cpp
 MotionControl.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/MotionControl.h
+/home/mhz/hello/omid/omid/ai/MotionControl.h
 geometry.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/geometry.h
+/home/mhz/hello/omid/omid/ai/geometry.h
 world.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/world.h
+/home/mhz/hello/omid/omid/ai/world.h
 io.h
 -
 Windows.h
@@ -94,23 +94,23 @@ GL/glu.h
 unistd.h
 -
 nrf.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/nrf.h
+/home/mhz/hello/omid/omid/ai/nrf.h
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/MotionControl.h
+/home/mhz/hello/omid/omid/ai/MotionControl.h
 math.h
 -
 geometry.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/geometry.h
+/home/mhz/hello/omid/omid/ai/geometry.h
 chrono
 -
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection.pb.cc
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection.pb.cc
 messages_robocup_ssl_detection.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -132,7 +132,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection.pb.h
 limits
 -
 string
@@ -168,9 +168,9 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection_tracked.pb.cc
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection_tracked.pb.cc
 messages_robocup_ssl_detection_tracked.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection_tracked.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection_tracked.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -192,7 +192,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection_tracked.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection_tracked.pb.h
 limits
 -
 string
@@ -230,9 +230,9 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry.pb.cc
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry.pb.cc
 messages_robocup_ssl_geometry.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -254,7 +254,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry.pb.h
 limits
 -
 string
@@ -292,9 +292,9 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry_legacy.pb.cc
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry_legacy.pb.cc
 messages_robocup_ssl_geometry_legacy.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry_legacy.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry_legacy.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -316,7 +316,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry_legacy.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry_legacy.pb.h
 limits
 -
 string
@@ -348,15 +348,15 @@ google/protobuf/extension_set.h
 google/protobuf/unknown_field_set.h
 -
 messages_robocup_ssl_geometry.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry.pb.h
 google/protobuf/port_def.inc
 -
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_refbox_log.pb.cc
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_refbox_log.pb.cc
 messages_robocup_ssl_refbox_log.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_refbox_log.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_refbox_log.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -378,7 +378,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_refbox_log.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_refbox_log.pb.h
 limits
 -
 string
@@ -410,15 +410,15 @@ google/protobuf/extension_set.h
 google/protobuf/unknown_field_set.h
 -
 messages_robocup_ssl_detection.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection.pb.h
 google/protobuf/port_def.inc
 -
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_wrapper.pb.cc
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_wrapper.pb.cc
 messages_robocup_ssl_wrapper.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_wrapper.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_wrapper.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -440,7 +440,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_wrapper.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_wrapper.pb.h
 limits
 -
 string
@@ -472,17 +472,17 @@ google/protobuf/extension_set.h
 google/protobuf/unknown_field_set.h
 -
 messages_robocup_ssl_detection.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection.pb.h
 messages_robocup_ssl_geometry.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry.pb.h
 google/protobuf/port_def.inc
 -
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_wrapper_legacy.pb.cc
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_wrapper_legacy.pb.cc
 messages_robocup_ssl_wrapper_legacy.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_wrapper_legacy.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_wrapper_legacy.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -504,7 +504,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_wrapper_legacy.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_wrapper_legacy.pb.h
 limits
 -
 string
@@ -536,17 +536,17 @@ google/protobuf/extension_set.h
 google/protobuf/unknown_field_set.h
 -
 messages_robocup_ssl_detection.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection.pb.h
 messages_robocup_ssl_geometry_legacy.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry_legacy.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry_legacy.pb.h
 google/protobuf/port_def.inc
 -
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_wrapper_tracked.pb.cc
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_wrapper_tracked.pb.cc
 messages_robocup_ssl_wrapper_tracked.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_wrapper_tracked.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_wrapper_tracked.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -568,7 +568,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_wrapper_tracked.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_wrapper_tracked.pb.h
 limits
 -
 string
@@ -600,15 +600,15 @@ google/protobuf/extension_set.h
 google/protobuf/unknown_field_set.h
 -
 messages_robocup_ssl_detection_tracked.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection_tracked.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection_tracked.pb.h
 google/protobuf/port_def.inc
 -
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/ssl_simulation_config.pb.cc
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/ssl_simulation_config.pb.cc
 ssl_simulation_config.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/ssl_simulation_config.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/ssl_simulation_config.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -630,7 +630,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/ssl_simulation_config.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/ssl_simulation_config.pb.h
 limits
 -
 string
@@ -662,9 +662,9 @@ google/protobuf/extension_set.h
 google/protobuf/unknown_field_set.h
 -
 messages_robocup_ssl_detection_tracked.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection_tracked.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection_tracked.pb.h
 messages_robocup_ssl_geometry.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry.pb.h
 google/protobuf/any.pb.h
 -
 google/protobuf/port_def.inc
@@ -672,9 +672,9 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/ssl_simulation_control.pb.cc
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/ssl_simulation_control.pb.cc
 ssl_simulation_control.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/ssl_simulation_control.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/ssl_simulation_control.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -696,7 +696,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/ssl_simulation_control.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/ssl_simulation_control.pb.h
 limits
 -
 string
@@ -728,19 +728,19 @@ google/protobuf/extension_set.h
 google/protobuf/unknown_field_set.h
 -
 messages_robocup_ssl_detection_tracked.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection_tracked.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection_tracked.pb.h
 ssl_simulation_config.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/ssl_simulation_config.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/ssl_simulation_config.pb.h
 ssl_simulation_error.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/ssl_simulation_error.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/ssl_simulation_error.pb.h
 google/protobuf/port_def.inc
 -
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/ssl_simulation_error.pb.cc
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/ssl_simulation_error.pb.cc
 ssl_simulation_error.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/ssl_simulation_error.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/ssl_simulation_error.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -762,7 +762,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/ssl_simulation_error.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/ssl_simulation_error.pb.h
 limits
 -
 string
@@ -798,9 +798,9 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/ssl_simulation_robot_control.pb.cc
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/ssl_simulation_robot_control.pb.cc
 ssl_simulation_robot_control.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/ssl_simulation_robot_control.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/ssl_simulation_robot_control.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -822,7 +822,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/ssl_simulation_robot_control.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/ssl_simulation_robot_control.pb.h
 limits
 -
 string
@@ -858,9 +858,9 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/ssl_simulation_robot_feedback.pb.cc
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/ssl_simulation_robot_feedback.pb.cc
 ssl_simulation_robot_feedback.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/ssl_simulation_robot_feedback.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/ssl_simulation_robot_feedback.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -882,7 +882,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/ssl_simulation_robot_feedback.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/ssl_simulation_robot_feedback.pb.h
 limits
 -
 string
@@ -914,7 +914,7 @@ google/protobuf/extension_set.h
 google/protobuf/unknown_field_set.h
 -
 ssl_simulation_error.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/ssl_simulation_error.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/ssl_simulation_error.pb.h
 google/protobuf/any.pb.h
 -
 google/protobuf/port_def.inc
@@ -922,9 +922,9 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/vision_detection.pb.cc
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/vision_detection.pb.cc
 vision_detection.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/vision_detection.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/vision_detection.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -946,7 +946,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/vision_detection.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/vision_detection.pb.h
 limits
 -
 string
@@ -982,9 +982,9 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Refree/game_event.pb.cc
+/home/mhz/hello/omid/omid/ai/Protobuf/Refree/game_event.pb.cc
 game_event.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Refree/game_event.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/Refree/game_event.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -1006,7 +1006,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Refree/game_event.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/Refree/game_event.pb.h
 limits
 -
 string
@@ -1044,9 +1044,9 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Refree/rcon.pb.cc
+/home/mhz/hello/omid/omid/ai/Protobuf/Refree/rcon.pb.cc
 rcon.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Refree/rcon.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/Refree/rcon.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -1068,7 +1068,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Refree/rcon.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/Refree/rcon.pb.h
 limits
 -
 string
@@ -1102,17 +1102,17 @@ google/protobuf/generated_enum_reflection.h
 google/protobuf/unknown_field_set.h
 -
 referee.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Refree/referee.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/Refree/referee.pb.h
 game_event.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Refree/game_event.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/Refree/game_event.pb.h
 google/protobuf/port_def.inc
 -
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Refree/referee.pb.cc
+/home/mhz/hello/omid/omid/ai/Protobuf/Refree/referee.pb.cc
 referee.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Refree/referee.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/Refree/referee.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -1134,7 +1134,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Refree/referee.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/Refree/referee.pb.h
 limits
 -
 string
@@ -1168,15 +1168,15 @@ google/protobuf/generated_enum_reflection.h
 google/protobuf/unknown_field_set.h
 -
 game_event.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Refree/game_event.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/Refree/game_event.pb.h
 google/protobuf/port_def.inc
 -
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Refree/savestate.pb.cc
+/home/mhz/hello/omid/omid/ai/Protobuf/Refree/savestate.pb.cc
 savestate.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Refree/savestate.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/Refree/savestate.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -1198,7 +1198,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Refree/savestate.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/Refree/savestate.pb.h
 limits
 -
 string
@@ -1232,23 +1232,23 @@ google/protobuf/generated_enum_reflection.h
 google/protobuf/unknown_field_set.h
 -
 referee.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Refree/referee.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/Refree/referee.pb.h
 google/protobuf/port_def.inc
 -
 google/protobuf/port_undef.inc
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/RRT.cpp
+/home/mhz/hello/omid/omid/ai/RRT.cpp
 RRT.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/RRT.h
+/home/mhz/hello/omid/omid/ai/RRT.h
 FieldGeometry.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/FieldGeometry.h
+/home/mhz/hello/omid/omid/ai/FieldGeometry.h
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/RRT.h
+/home/mhz/hello/omid/omid/ai/RRT.h
 world.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/world.h
+/home/mhz/hello/omid/omid/ai/world.h
 random
 -
 io.h
@@ -1272,35 +1272,35 @@ GL/gl.h
 GL/glu.h
 -
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Referee.cpp
+/home/mhz/hello/omid/omid/ai/Referee.cpp
 Referee.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Referee.h
+/home/mhz/hello/omid/omid/ai/Referee.h
 iostream
 -
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Referee.h
+/home/mhz/hello/omid/omid/ai/Referee.h
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 Protobuf/Refree/referee.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Refree/referee.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/Refree/referee.pb.h
 GameState.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/GameState.h
+/home/mhz/hello/omid/omid/ai/GameState.h
 stdint.h
 -
 Socket_udp.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Socket_udp.h
+/home/mhz/hello/omid/omid/ai/Socket_udp.h
 world.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/world.h
+/home/mhz/hello/omid/omid/ai/world.h
 GameState.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/GameState.h
+/home/mhz/hello/omid/omid/ai/GameState.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Socket_udp.cpp
+/home/mhz/hello/omid/omid/ai/Socket_udp.cpp
 Socket_udp.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Socket_udp.h
+/home/mhz/hello/omid/omid/ai/Socket_udp.h
 arpa/inet.h
 -
 sys/socket.h
@@ -1310,9 +1310,9 @@ ifaddrs.h
 stdio.h
 -
 iostream
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/iostream
+/home/mhz/hello/omid/omid/ai/iostream
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Socket_udp.h
+/home/mhz/hello/omid/omid/ai/Socket_udp.h
 stdio.h
 -
 stdlib.h
@@ -1346,117 +1346,117 @@ unistd.h
 netinet/in.h
 -
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 stdio.h
 -
 string.h
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Strategy.cpp
+/home/mhz/hello/omid/omid/ai/Strategy.cpp
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Vision.cpp
+/home/mhz/hello/omid/omid/ai/Vision.cpp
 Vision.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Vision.h
+/home/mhz/hello/omid/omid/ai/Vision.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Vision.h
+/home/mhz/hello/omid/omid/ai/Vision.h
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 iostream
 -
 Protobuf/ER-force/messages_robocup_ssl_detection.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_detection.pb.h
 Protobuf/ER-force/messages_robocup_ssl_geometry.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_geometry.pb.h
 Protobuf/ER-force/messages_robocup_ssl_wrapper.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/messages_robocup_ssl_wrapper.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/messages_robocup_ssl_wrapper.pb.h
 Protobuf/Vision/messages_robocup_ssl_detection.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Vision/messages_robocup_ssl_detection.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/Vision/messages_robocup_ssl_detection.pb.h
 Protobuf/Vision/messages_robocup_ssl_geometry.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Vision/messages_robocup_ssl_geometry.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/Vision/messages_robocup_ssl_geometry.pb.h
 Protobuf/Vision/messages_robocup_ssl_wrapper.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Vision/messages_robocup_ssl_wrapper.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/Vision/messages_robocup_ssl_wrapper.pb.h
 Socket_udp.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Socket_udp.h
+/home/mhz/hello/omid/omid/ai/Socket_udp.h
 filter.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/filter.h
+/home/mhz/hello/omid/omid/ai/filter.h
 world.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/world.h
+/home/mhz/hello/omid/omid/ai/world.h
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/VisionBall.cpp
+/home/mhz/hello/omid/omid/ai/VisionBall.cpp
 Vision.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Vision.h
+/home/mhz/hello/omid/omid/ai/Vision.h
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/VisionComminucation.cpp
+/home/mhz/hello/omid/omid/ai/VisionComminucation.cpp
 Vision.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Vision.h
+/home/mhz/hello/omid/omid/ai/Vision.h
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/VisionRobot.cpp
+/home/mhz/hello/omid/omid/ai/VisionRobot.cpp
 Vision.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Vision.h
+/home/mhz/hello/omid/omid/ai/Vision.h
 fstream
 -
 geometry.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/geometry.h
+/home/mhz/hello/omid/omid/ai/geometry.h
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/estimation.cpp
+/home/mhz/hello/omid/omid/ai/estimation.cpp
 estimation.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/estimation.h
+/home/mhz/hello/omid/omid/ai/estimation.h
 matrix.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/matrix.h
+/home/mhz/hello/omid/omid/ai/matrix.h
 filter.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/filter.h
+/home/mhz/hello/omid/omid/ai/filter.h
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/estimation.h
+/home/mhz/hello/omid/omid/ai/estimation.h
 world.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/world.h
+/home/mhz/hello/omid/omid/ai/world.h
 timer.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/timer.h
+/home/mhz/hello/omid/omid/ai/timer.h
 geometry.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/geometry.h
+/home/mhz/hello/omid/omid/ai/geometry.h
 matrix.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/matrix.h
+/home/mhz/hello/omid/omid/ai/matrix.h
 filter.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/filter.h
+/home/mhz/hello/omid/omid/ai/filter.h
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/filter.cpp
+/home/mhz/hello/omid/omid/ai/filter.cpp
 filter.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/filter.h
+/home/mhz/hello/omid/omid/ai/filter.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/filter.h
+/home/mhz/hello/omid/omid/ai/filter.h
 geometry.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/geometry.h
+/home/mhz/hello/omid/omid/ai/geometry.h
 matrix.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/matrix.h
+/home/mhz/hello/omid/omid/ai/matrix.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/geometry.cpp
+/home/mhz/hello/omid/omid/ai/geometry.cpp
 geometry.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/geometry.h
+/home/mhz/hello/omid/omid/ai/geometry.h
 stdio.h
 -
 world.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/world.h
+/home/mhz/hello/omid/omid/ai/world.h
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 estimation.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/estimation.h
+/home/mhz/hello/omid/omid/ai/estimation.h
 iostream.h
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/geometry.h
+/home/mhz/hello/omid/omid/ai/geometry.h
 math.h
 -
 string
@@ -1464,127 +1464,127 @@ string
 iostream
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glball.cpp
+/home/mhz/hello/omid/omid/ai/graphical/glball.cpp
 glball.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glball.h
+/home/mhz/hello/omid/omid/ai/graphical/glball.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glball.h
+/home/mhz/hello/omid/omid/ai/graphical/glball.h
 math.h
 -
 ../geometry.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/geometry.h
+/home/mhz/hello/omid/omid/ai/geometry.h
 /usr/include/GL/glut.h
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glcircle.cpp
+/home/mhz/hello/omid/omid/ai/graphical/glcircle.cpp
 glcircle.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glcircle.h
+/home/mhz/hello/omid/omid/ai/graphical/glcircle.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glcircle.h
+/home/mhz/hello/omid/omid/ai/graphical/glcircle.h
 ../geometry.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/geometry.h
+/home/mhz/hello/omid/omid/ai/geometry.h
 ../GL/glut.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/GL/glut.h
+/home/mhz/hello/omid/omid/ai/GL/glut.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glfield.cpp
+/home/mhz/hello/omid/omid/ai/graphical/glfield.cpp
 glfield.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glfield.h
+/home/mhz/hello/omid/omid/ai/graphical/glfield.h
 ../world.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/world.h
+/home/mhz/hello/omid/omid/ai/world.h
 glframe.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glframe.h
+/home/mhz/hello/omid/omid/ai/graphical/glframe.h
 ../Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glfield.h
+/home/mhz/hello/omid/omid/ai/graphical/glfield.h
 math.h
 -
 ../world.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/world.h
+/home/mhz/hello/omid/omid/ai/world.h
 ../GL/glut.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/GL/glut.h
+/home/mhz/hello/omid/omid/ai/GL/glut.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glframe.cpp
+/home/mhz/hello/omid/omid/ai/graphical/glframe.cpp
 glframe.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glframe.h
+/home/mhz/hello/omid/omid/ai/graphical/glframe.h
 stdio.h
 -
 string.h
 -
 ../Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glframe.h
+/home/mhz/hello/omid/omid/ai/graphical/glframe.h
 glball.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glball.h
+/home/mhz/hello/omid/omid/ai/graphical/glball.h
 glfield.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glfield.h
+/home/mhz/hello/omid/omid/ai/graphical/glfield.h
 glrobot.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glrobot.h
+/home/mhz/hello/omid/omid/ai/graphical/glrobot.h
 gltext.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/gltext.h
+/home/mhz/hello/omid/omid/ai/graphical/gltext.h
 glcircle.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glcircle.h
+/home/mhz/hello/omid/omid/ai/graphical/glcircle.h
 glline.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glline.h
+/home/mhz/hello/omid/omid/ai/graphical/glline.h
 ../world.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/world.h
+/home/mhz/hello/omid/omid/ai/world.h
 ../GL/glut.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/GL/glut.h
+/home/mhz/hello/omid/omid/ai/GL/glut.h
 ../Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glline.cpp
+/home/mhz/hello/omid/omid/ai/graphical/glline.cpp
 glline.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glline.h
+/home/mhz/hello/omid/omid/ai/graphical/glline.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glline.h
+/home/mhz/hello/omid/omid/ai/graphical/glline.h
 ../geometry.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/geometry.h
+/home/mhz/hello/omid/omid/ai/geometry.h
 ../GL/glut.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/GL/glut.h
+/home/mhz/hello/omid/omid/ai/GL/glut.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glrobot.cpp
+/home/mhz/hello/omid/omid/ai/graphical/glrobot.cpp
 glrobot.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glrobot.h
+/home/mhz/hello/omid/omid/ai/graphical/glrobot.h
 ../Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glrobot.h
+/home/mhz/hello/omid/omid/ai/graphical/glrobot.h
 stdio.h
 -
 math.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/math.h
+/home/mhz/hello/omid/omid/ai/graphical/math.h
 ../geometry.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/geometry.h
+/home/mhz/hello/omid/omid/ai/geometry.h
 ../GL/glut.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/GL/glut.h
+/home/mhz/hello/omid/omid/ai/GL/glut.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/gltext.cpp
+/home/mhz/hello/omid/omid/ai/graphical/gltext.cpp
 gltext.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/gltext.h
+/home/mhz/hello/omid/omid/ai/graphical/gltext.h
 string
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/gltext.h
+/home/mhz/hello/omid/omid/ai/graphical/gltext.h
 ../geometry.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/geometry.h
+/home/mhz/hello/omid/omid/ai/geometry.h
 string
 -
 ../GL/glut.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/GL/glut.h
+/home/mhz/hello/omid/omid/ai/GL/glut.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/main.cpp
+/home/mhz/hello/omid/omid/ai/main.cpp
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 Referee.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Referee.h
+/home/mhz/hello/omid/omid/ai/Referee.h
 Vision.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Vision.h
+/home/mhz/hello/omid/omid/ai/Vision.h
 estimation.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/estimation.h
+/home/mhz/hello/omid/omid/ai/estimation.h
 Socket_udp.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Socket_udp.h
+/home/mhz/hello/omid/omid/ai/Socket_udp.h
 thread
 -
 mutex
@@ -1592,35 +1592,35 @@ mutex
 ctime
 -
 Protobuf/Grsim/grSim_Commands.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Grsim/grSim_Commands.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/Grsim/grSim_Commands.pb.h
 Protobuf/Grsim/grSim_Packet.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Grsim/grSim_Packet.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/Grsim/grSim_Packet.pb.h
 Protobuf/Grsim/grSim_Replacement.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Grsim/grSim_Replacement.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/Grsim/grSim_Replacement.pb.h
 FieldGeometry.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/FieldGeometry.h
+/home/mhz/hello/omid/omid/ai/FieldGeometry.h
 world.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/world.h
+/home/mhz/hello/omid/omid/ai/world.h
 graphical/glframe.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glframe.h
+/home/mhz/hello/omid/omid/ai/graphical/glframe.h
 nrf.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/nrf.h
+/home/mhz/hello/omid/omid/ai/nrf.h
 fstream
 -
 random
 -
 RRT.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/RRT.h
+/home/mhz/hello/omid/omid/ai/RRT.h
 MotionControl.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/MotionControl.h
+/home/mhz/hello/omid/omid/ai/MotionControl.h
 Vision.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Vision.h
+/home/mhz/hello/omid/omid/ai/Vision.h
 string
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/string
+/home/mhz/hello/omid/omid/ai/string
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/matrix.h
+/home/mhz/hello/omid/omid/ai/matrix.h
 string.h
 -
 stdio.h
@@ -1654,9 +1654,9 @@ stdexcept
 stdexcep
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/nrf.cpp
+/home/mhz/hello/omid/omid/ai/nrf.cpp
 nrf.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/nrf.h
+/home/mhz/hello/omid/omid/ai/nrf.h
 iostream
 -
 io.h
@@ -1702,33 +1702,33 @@ sys/ioctl.h
 asm-generic/termbits.h
 -
 math.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/math.h
+/home/mhz/hello/omid/omid/ai/math.h
 matrix.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/matrix.h
+/home/mhz/hello/omid/omid/ai/matrix.h
 chrono
 -
 thread
 -
 geometry.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/geometry.h
+/home/mhz/hello/omid/omid/ai/geometry.h
 world.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/world.h
+/home/mhz/hello/omid/omid/ai/world.h
 random
 -
 RRT.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/RRT.h
+/home/mhz/hello/omid/omid/ai/RRT.h
 Socket_udp.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Socket_udp.h
+/home/mhz/hello/omid/omid/ai/Socket_udp.h
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 Protobuf/ER-force/ssl_simulation_control.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/ssl_simulation_control.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/ssl_simulation_control.pb.h
 Protobuf/Grsim/grSim_Packet.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Grsim/grSim_Packet.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/Grsim/grSim_Packet.pb.h
 string
 -
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 stdio.h
 -
 string.h
@@ -1742,11 +1742,11 @@ errno.h
 time.h
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/nrf.h
+/home/mhz/hello/omid/omid/ai/nrf.h
 math.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/math.h
+/home/mhz/hello/omid/omid/ai/math.h
 matrix.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/matrix.h
+/home/mhz/hello/omid/omid/ai/matrix.h
 io.h
 -
 Windows.h
@@ -1772,25 +1772,25 @@ GL/gl.h
 GL/glu.h
 -
 geometry.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/geometry.h
+/home/mhz/hello/omid/omid/ai/geometry.h
 Socket_udp.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Socket_udp.h
+/home/mhz/hello/omid/omid/ai/Socket_udp.h
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 Protobuf/ER-force/ssl_simulation_robot_control.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/ssl_simulation_robot_control.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/ssl_simulation_robot_control.pb.h
 Protobuf/ER-force/ssl_simulation_error.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/ER-force/ssl_simulation_error.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/ER-force/ssl_simulation_error.pb.h
 Protobuf/Grsim/grSim_Packet.pb.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Protobuf/Grsim/grSim_Packet.pb.h
+/home/mhz/hello/omid/omid/ai/Protobuf/Grsim/grSim_Packet.pb.h
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/timer.cpp
+/home/mhz/hello/omid/omid/ai/timer.cpp
 timer.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/timer.h
+/home/mhz/hello/omid/omid/ai/timer.h
 time.h
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/timer.h
+/home/mhz/hello/omid/omid/ai/timer.h
 stdio.h
 -
 stdlib.h
@@ -1800,29 +1800,29 @@ ctime
 chrono
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/world.cpp
+/home/mhz/hello/omid/omid/ai/world.cpp
 world.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/world.h
+/home/mhz/hello/omid/omid/ai/world.h
 graphical/glframe.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/graphical/glframe.h
+/home/mhz/hello/omid/omid/ai/graphical/glframe.h
 geometry.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/geometry.h
+/home/mhz/hello/omid/omid/ai/geometry.h
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 string.h
 -
 
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/world.h
+/home/mhz/hello/omid/omid/ai/world.h
 FieldGeometry.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/FieldGeometry.h
+/home/mhz/hello/omid/omid/ai/FieldGeometry.h
 geometry.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/geometry.h
+/home/mhz/hello/omid/omid/ai/geometry.h
 GameState.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/GameState.h
+/home/mhz/hello/omid/omid/ai/GameState.h
 timer.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/timer.h
+/home/mhz/hello/omid/omid/ai/timer.h
 Switches.h
-/home/fdmx/Desktop/AI-Linux-Windos-2021-352a90e0ee82781b90489d6de5fbdbcace1c6545/omid/ai/Switches.h
+/home/mhz/hello/omid/omid/ai/Switches.h
 
 /usr/include/GL/freeglut_std.h
 windows.h

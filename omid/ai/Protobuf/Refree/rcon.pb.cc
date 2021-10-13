@@ -70,12 +70,13 @@ static ::PROTOBUF_NAMESPACE_ID::Metadata file_level_metadata_rcon_2eproto[3];
 static const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* file_level_enum_descriptors_rcon_2eproto[3];
 static constexpr ::PROTOBUF_NAMESPACE_ID::ServiceDescriptor const** file_level_service_descriptors_rcon_2eproto = nullptr;
 
-const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_rcon_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
+const uint32_t TableStruct_rcon_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
   PROTOBUF_FIELD_OFFSET(::SSL_RefereeRemoteControlRequest_CardInfo, _has_bits_),
   PROTOBUF_FIELD_OFFSET(::SSL_RefereeRemoteControlRequest_CardInfo, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
+  ~0u,  // no _inlined_string_donated_
   PROTOBUF_FIELD_OFFSET(::SSL_RefereeRemoteControlRequest_CardInfo, type_),
   PROTOBUF_FIELD_OFFSET(::SSL_RefereeRemoteControlRequest_CardInfo, team_),
   0,
@@ -85,6 +86,7 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_rcon_2eproto::offsets[] PROTOB
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
+  ~0u,  // no _inlined_string_donated_
   PROTOBUF_FIELD_OFFSET(::SSL_RefereeRemoteControlRequest, message_id_),
   PROTOBUF_FIELD_OFFSET(::SSL_RefereeRemoteControlRequest, stage_),
   PROTOBUF_FIELD_OFFSET(::SSL_RefereeRemoteControlRequest, command_),
@@ -106,15 +108,16 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_rcon_2eproto::offsets[] PROTOB
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
+  ~0u,  // no _inlined_string_donated_
   PROTOBUF_FIELD_OFFSET(::SSL_RefereeRemoteControlReply, message_id_),
   PROTOBUF_FIELD_OFFSET(::SSL_RefereeRemoteControlReply, outcome_),
   0,
   1,
 };
 static const ::PROTOBUF_NAMESPACE_ID::internal::MigrationSchema schemas[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, 7, sizeof(::SSL_RefereeRemoteControlRequest_CardInfo)},
-  { 9, 22, sizeof(::SSL_RefereeRemoteControlRequest)},
-  { 30, 37, sizeof(::SSL_RefereeRemoteControlReply)},
+  { 0, 8, -1, sizeof(::SSL_RefereeRemoteControlRequest_CardInfo)},
+  { 10, 24, -1, sizeof(::SSL_RefereeRemoteControlRequest)},
+  { 32, 40, -1, sizeof(::SSL_RefereeRemoteControlReply)},
 };
 
 static ::PROTOBUF_NAMESPACE_ID::Message const * const file_default_instances[] = {
@@ -179,13 +182,13 @@ bool SSL_RefereeRemoteControlRequest_CardInfo_CardType_IsValid(int value) {
   }
 }
 
-#if (__cplusplus < 201703) && (!defined(_MSC_VER) || _MSC_VER >= 1900)
+#if (__cplusplus < 201703) && (!defined(_MSC_VER) || (_MSC_VER >= 1900 && _MSC_VER < 1912))
 constexpr SSL_RefereeRemoteControlRequest_CardInfo_CardType SSL_RefereeRemoteControlRequest_CardInfo::CARD_YELLOW;
 constexpr SSL_RefereeRemoteControlRequest_CardInfo_CardType SSL_RefereeRemoteControlRequest_CardInfo::CARD_RED;
 constexpr SSL_RefereeRemoteControlRequest_CardInfo_CardType SSL_RefereeRemoteControlRequest_CardInfo::CardType_MIN;
 constexpr SSL_RefereeRemoteControlRequest_CardInfo_CardType SSL_RefereeRemoteControlRequest_CardInfo::CardType_MAX;
 constexpr int SSL_RefereeRemoteControlRequest_CardInfo::CardType_ARRAYSIZE;
-#endif  // (__cplusplus < 201703) && (!defined(_MSC_VER) || _MSC_VER >= 1900)
+#endif  // (__cplusplus < 201703) && (!defined(_MSC_VER) || (_MSC_VER >= 1900 && _MSC_VER < 1912))
 const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* SSL_RefereeRemoteControlRequest_CardInfo_CardTeam_descriptor() {
   ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&descriptor_table_rcon_2eproto);
   return file_level_enum_descriptors_rcon_2eproto[1];
@@ -200,13 +203,13 @@ bool SSL_RefereeRemoteControlRequest_CardInfo_CardTeam_IsValid(int value) {
   }
 }
 
-#if (__cplusplus < 201703) && (!defined(_MSC_VER) || _MSC_VER >= 1900)
+#if (__cplusplus < 201703) && (!defined(_MSC_VER) || (_MSC_VER >= 1900 && _MSC_VER < 1912))
 constexpr SSL_RefereeRemoteControlRequest_CardInfo_CardTeam SSL_RefereeRemoteControlRequest_CardInfo::TEAM_YELLOW;
 constexpr SSL_RefereeRemoteControlRequest_CardInfo_CardTeam SSL_RefereeRemoteControlRequest_CardInfo::TEAM_BLUE;
 constexpr SSL_RefereeRemoteControlRequest_CardInfo_CardTeam SSL_RefereeRemoteControlRequest_CardInfo::CardTeam_MIN;
 constexpr SSL_RefereeRemoteControlRequest_CardInfo_CardTeam SSL_RefereeRemoteControlRequest_CardInfo::CardTeam_MAX;
 constexpr int SSL_RefereeRemoteControlRequest_CardInfo::CardTeam_ARRAYSIZE;
-#endif  // (__cplusplus < 201703) && (!defined(_MSC_VER) || _MSC_VER >= 1900)
+#endif  // (__cplusplus < 201703) && (!defined(_MSC_VER) || (_MSC_VER >= 1900 && _MSC_VER < 1912))
 const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* SSL_RefereeRemoteControlReply_Outcome_descriptor() {
   ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&descriptor_table_rcon_2eproto);
   return file_level_enum_descriptors_rcon_2eproto[2];
@@ -228,7 +231,7 @@ bool SSL_RefereeRemoteControlReply_Outcome_IsValid(int value) {
   }
 }
 
-#if (__cplusplus < 201703) && (!defined(_MSC_VER) || _MSC_VER >= 1900)
+#if (__cplusplus < 201703) && (!defined(_MSC_VER) || (_MSC_VER >= 1900 && _MSC_VER < 1912))
 constexpr SSL_RefereeRemoteControlReply_Outcome SSL_RefereeRemoteControlReply::OK;
 constexpr SSL_RefereeRemoteControlReply_Outcome SSL_RefereeRemoteControlReply::MULTIPLE_ACTIONS;
 constexpr SSL_RefereeRemoteControlReply_Outcome SSL_RefereeRemoteControlReply::BAD_STAGE;
@@ -241,7 +244,7 @@ constexpr SSL_RefereeRemoteControlReply_Outcome SSL_RefereeRemoteControlReply::C
 constexpr SSL_RefereeRemoteControlReply_Outcome SSL_RefereeRemoteControlReply::Outcome_MIN;
 constexpr SSL_RefereeRemoteControlReply_Outcome SSL_RefereeRemoteControlReply::Outcome_MAX;
 constexpr int SSL_RefereeRemoteControlReply::Outcome_ARRAYSIZE;
-#endif  // (__cplusplus < 201703) && (!defined(_MSC_VER) || _MSC_VER >= 1900)
+#endif  // (__cplusplus < 201703) && (!defined(_MSC_VER) || (_MSC_VER >= 1900 && _MSC_VER < 1912))
 
 // ===================================================================
 
@@ -308,7 +311,7 @@ void SSL_RefereeRemoteControlRequest_CardInfo::SetCachedSize(int size) const {
 
 void SSL_RefereeRemoteControlRequest_CardInfo::Clear() {
 // @@protoc_insertion_point(message_clear_start:SSL_RefereeRemoteControlRequest.CardInfo)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
@@ -326,61 +329,63 @@ const char* SSL_RefereeRemoteControlRequest_CardInfo::_InternalParse(const char*
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   _Internal::HasBits has_bits{};
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+    uint32_t tag;
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // required .SSL_RefereeRemoteControlRequest.CardInfo.CardType type = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 8)) {
+          uint64_t val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
           if (PROTOBUF_PREDICT_TRUE(::SSL_RefereeRemoteControlRequest_CardInfo_CardType_IsValid(val))) {
             _internal_set_type(static_cast<::SSL_RefereeRemoteControlRequest_CardInfo_CardType>(val));
           } else {
             ::PROTOBUF_NAMESPACE_ID::internal::WriteVarint(1, val, mutable_unknown_fields());
           }
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required .SSL_RefereeRemoteControlRequest.CardInfo.CardTeam team = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 16)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 16)) {
+          uint64_t val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
           if (PROTOBUF_PREDICT_TRUE(::SSL_RefereeRemoteControlRequest_CardInfo_CardTeam_IsValid(val))) {
             _internal_set_team(static_cast<::SSL_RefereeRemoteControlRequest_CardInfo_CardTeam>(val));
           } else {
             ::PROTOBUF_NAMESPACE_ID::internal::WriteVarint(2, val, mutable_unknown_fields());
           }
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag == 0) || ((tag & 7) == 4)) {
-          CHK_(ptr);
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
+message_done:
   _has_bits_.Or(has_bits);
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* SSL_RefereeRemoteControlRequest_CardInfo::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* SSL_RefereeRemoteControlRequest_CardInfo::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:SSL_RefereeRemoteControlRequest.CardInfo)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   cached_has_bits = _has_bits_[0];
@@ -440,17 +445,11 @@ size_t SSL_RefereeRemoteControlRequest_CardInfo::ByteSizeLong() const {
   } else {
     total_size += RequiredFieldsByteSizeFallback();
   }
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_cached_size_);
 }
 
 const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SSL_RefereeRemoteControlRequest_CardInfo::_class_data_ = {
@@ -459,8 +458,8 @@ const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SSL_RefereeRemoteControlReques
 };
 const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*SSL_RefereeRemoteControlRequest_CardInfo::GetClassData() const { return &_class_data_; }
 
-void SSL_RefereeRemoteControlRequest_CardInfo::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message*to,
-                      const ::PROTOBUF_NAMESPACE_ID::Message&from) {
+void SSL_RefereeRemoteControlRequest_CardInfo::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message* to,
+                      const ::PROTOBUF_NAMESPACE_ID::Message& from) {
   static_cast<SSL_RefereeRemoteControlRequest_CardInfo *>(to)->MergeFrom(
       static_cast<const SSL_RefereeRemoteControlRequest_CardInfo &>(from));
 }
@@ -469,7 +468,7 @@ void SSL_RefereeRemoteControlRequest_CardInfo::MergeImpl(::PROTOBUF_NAMESPACE_ID
 void SSL_RefereeRemoteControlRequest_CardInfo::MergeFrom(const SSL_RefereeRemoteControlRequest_CardInfo& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:SSL_RefereeRemoteControlRequest.CardInfo)
   GOOGLE_DCHECK_NE(&from, this);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   cached_has_bits = from._has_bits_[0];
@@ -586,6 +585,9 @@ SSL_RefereeRemoteControlRequest::SSL_RefereeRemoteControlRequest(const SSL_Refer
       _has_bits_(from._has_bits_) {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   implementation_id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    implementation_id_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), "", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
   if (from._internal_has_implementation_id()) {
     implementation_id_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, from._internal_implementation_id(), 
       GetArenaForAllocation());
@@ -613,6 +615,9 @@ SSL_RefereeRemoteControlRequest::SSL_RefereeRemoteControlRequest(const SSL_Refer
 
 inline void SSL_RefereeRemoteControlRequest::SharedCtor() {
 implementation_id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+#ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+  implementation_id_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), "", GetArenaForAllocation());
+#endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
 ::memset(reinterpret_cast<char*>(this) + static_cast<size_t>(
     reinterpret_cast<char*>(&designated_position_) - reinterpret_cast<char*>(this)),
     0, static_cast<size_t>(reinterpret_cast<char*>(&last_command_counter_) -
@@ -646,7 +651,7 @@ void SSL_RefereeRemoteControlRequest::SetCachedSize(int size) const {
 
 void SSL_RefereeRemoteControlRequest::Clear() {
 // @@protoc_insertion_point(message_clear_start:SSL_RefereeRemoteControlRequest)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
@@ -681,109 +686,117 @@ const char* SSL_RefereeRemoteControlRequest::_InternalParse(const char* ptr, ::P
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   _Internal::HasBits has_bits{};
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+    uint32_t tag;
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // required uint32 message_id = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 8)) {
           _Internal::set_has_message_id(&has_bits);
           message_id_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // optional .SSL_Referee.Stage stage = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 16)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 16)) {
+          uint64_t val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
           if (PROTOBUF_PREDICT_TRUE(::SSL_Referee_Stage_IsValid(val))) {
             _internal_set_stage(static_cast<::SSL_Referee_Stage>(val));
           } else {
             ::PROTOBUF_NAMESPACE_ID::internal::WriteVarint(2, val, mutable_unknown_fields());
           }
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // optional .SSL_Referee.Command command = 3;
       case 3:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 24)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 24)) {
+          uint64_t val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
           if (PROTOBUF_PREDICT_TRUE(::SSL_Referee_Command_IsValid(val))) {
             _internal_set_command(static_cast<::SSL_Referee_Command>(val));
           } else {
             ::PROTOBUF_NAMESPACE_ID::internal::WriteVarint(3, val, mutable_unknown_fields());
           }
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // optional .SSL_Referee.Point designated_position = 4;
       case 4:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 34)) {
           ptr = ctx->ParseMessage(_internal_mutable_designated_position(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // optional .SSL_RefereeRemoteControlRequest.CardInfo card = 5;
       case 5:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 42)) {
           ptr = ctx->ParseMessage(_internal_mutable_card(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // optional uint32 last_command_counter = 6;
       case 6:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 48)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 48)) {
           _Internal::set_has_last_command_counter(&has_bits);
           last_command_counter_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // optional string implementation_id = 7;
       case 7:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 58)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 58)) {
           auto str = _internal_mutable_implementation_id();
           ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
           #ifndef NDEBUG
           ::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "SSL_RefereeRemoteControlRequest.implementation_id");
           #endif  // !NDEBUG
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // optional .SSL_Referee_Game_Event gameEvent = 8;
       case 8:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 66)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 66)) {
           ptr = ctx->ParseMessage(_internal_mutable_gameevent(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag == 0) || ((tag & 7) == 4)) {
-          CHK_(ptr);
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
+message_done:
   _has_bits_.Or(has_bits);
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* SSL_RefereeRemoteControlRequest::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* SSL_RefereeRemoteControlRequest::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:SSL_RefereeRemoteControlRequest)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   cached_has_bits = _has_bits_[0];
@@ -861,11 +874,9 @@ size_t SSL_RefereeRemoteControlRequest::ByteSizeLong() const {
 
   // required uint32 message_id = 1;
   if (_internal_has_message_id()) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_message_id());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32SizePlusOne(this->_internal_message_id());
   }
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
@@ -915,19 +926,11 @@ size_t SSL_RefereeRemoteControlRequest::ByteSizeLong() const {
 
     // optional uint32 last_command_counter = 6;
     if (cached_has_bits & 0x00000080u) {
-      total_size += 1 +
-        ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-          this->_internal_last_command_counter());
+      total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32SizePlusOne(this->_internal_last_command_counter());
     }
 
   }
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_cached_size_);
 }
 
 const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SSL_RefereeRemoteControlRequest::_class_data_ = {
@@ -936,8 +939,8 @@ const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SSL_RefereeRemoteControlReques
 };
 const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*SSL_RefereeRemoteControlRequest::GetClassData() const { return &_class_data_; }
 
-void SSL_RefereeRemoteControlRequest::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message*to,
-                      const ::PROTOBUF_NAMESPACE_ID::Message&from) {
+void SSL_RefereeRemoteControlRequest::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message* to,
+                      const ::PROTOBUF_NAMESPACE_ID::Message& from) {
   static_cast<SSL_RefereeRemoteControlRequest *>(to)->MergeFrom(
       static_cast<const SSL_RefereeRemoteControlRequest &>(from));
 }
@@ -946,7 +949,7 @@ void SSL_RefereeRemoteControlRequest::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message
 void SSL_RefereeRemoteControlRequest::MergeFrom(const SSL_RefereeRemoteControlRequest& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:SSL_RefereeRemoteControlRequest)
   GOOGLE_DCHECK_NE(&from, this);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   cached_has_bits = from._has_bits_[0];
@@ -1003,12 +1006,14 @@ bool SSL_RefereeRemoteControlRequest::IsInitialized() const {
 
 void SSL_RefereeRemoteControlRequest::InternalSwap(SSL_RefereeRemoteControlRequest* other) {
   using std::swap;
+  auto* lhs_arena = GetArenaForAllocation();
+  auto* rhs_arena = other->GetArenaForAllocation();
   _internal_metadata_.InternalSwap(&other->_internal_metadata_);
   swap(_has_bits_[0], other->_has_bits_[0]);
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
       &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
-      &implementation_id_, GetArenaForAllocation(),
-      &other->implementation_id_, other->GetArenaForAllocation()
+      &implementation_id_, lhs_arena,
+      &other->implementation_id_, rhs_arena
   );
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
       PROTOBUF_FIELD_OFFSET(SSL_RefereeRemoteControlRequest, last_command_counter_)
@@ -1089,7 +1094,7 @@ void SSL_RefereeRemoteControlReply::SetCachedSize(int size) const {
 
 void SSL_RefereeRemoteControlReply::Clear() {
 // @@protoc_insertion_point(message_clear_start:SSL_RefereeRemoteControlReply)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
@@ -1107,57 +1112,59 @@ const char* SSL_RefereeRemoteControlReply::_InternalParse(const char* ptr, ::PRO
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   _Internal::HasBits has_bits{};
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+    uint32_t tag;
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // required uint32 message_id = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 8)) {
           _Internal::set_has_message_id(&has_bits);
           message_id_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required .SSL_RefereeRemoteControlReply.Outcome outcome = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 16)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 16)) {
+          uint64_t val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
           if (PROTOBUF_PREDICT_TRUE(::SSL_RefereeRemoteControlReply_Outcome_IsValid(val))) {
             _internal_set_outcome(static_cast<::SSL_RefereeRemoteControlReply_Outcome>(val));
           } else {
             ::PROTOBUF_NAMESPACE_ID::internal::WriteVarint(2, val, mutable_unknown_fields());
           }
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag == 0) || ((tag & 7) == 4)) {
-          CHK_(ptr);
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
+message_done:
   _has_bits_.Or(has_bits);
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* SSL_RefereeRemoteControlReply::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* SSL_RefereeRemoteControlReply::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:SSL_RefereeRemoteControlReply)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   cached_has_bits = _has_bits_[0];
@@ -1188,9 +1195,7 @@ size_t SSL_RefereeRemoteControlReply::RequiredFieldsByteSizeFallback() const {
 
   if (_internal_has_message_id()) {
     // required uint32 message_id = 1;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_message_id());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32SizePlusOne(this->_internal_message_id());
   }
 
   if (_internal_has_outcome()) {
@@ -1207,9 +1212,7 @@ size_t SSL_RefereeRemoteControlReply::ByteSizeLong() const {
 
   if (((_has_bits_[0] & 0x00000003) ^ 0x00000003) == 0) {  // All required fields are present.
     // required uint32 message_id = 1;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_message_id());
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32SizePlusOne(this->_internal_message_id());
 
     // required .SSL_RefereeRemoteControlReply.Outcome outcome = 2;
     total_size += 1 +
@@ -1218,17 +1221,11 @@ size_t SSL_RefereeRemoteControlReply::ByteSizeLong() const {
   } else {
     total_size += RequiredFieldsByteSizeFallback();
   }
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_cached_size_);
 }
 
 const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SSL_RefereeRemoteControlReply::_class_data_ = {
@@ -1237,8 +1234,8 @@ const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SSL_RefereeRemoteControlReply:
 };
 const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*SSL_RefereeRemoteControlReply::GetClassData() const { return &_class_data_; }
 
-void SSL_RefereeRemoteControlReply::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message*to,
-                      const ::PROTOBUF_NAMESPACE_ID::Message&from) {
+void SSL_RefereeRemoteControlReply::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message* to,
+                      const ::PROTOBUF_NAMESPACE_ID::Message& from) {
   static_cast<SSL_RefereeRemoteControlReply *>(to)->MergeFrom(
       static_cast<const SSL_RefereeRemoteControlReply &>(from));
 }
@@ -1247,7 +1244,7 @@ void SSL_RefereeRemoteControlReply::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message*t
 void SSL_RefereeRemoteControlReply::MergeFrom(const SSL_RefereeRemoteControlReply& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:SSL_RefereeRemoteControlReply)
   GOOGLE_DCHECK_NE(&from, this);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   cached_has_bits = from._has_bits_[0];
