@@ -57,10 +57,9 @@ Server_Addr.sin_port = htons(Port_Num);
 
 // Set the TTL for the sends using a setsockopt()
 TTL = 1;
-//retcode = setsockopt(Multi_Server_Sock, IPPROTO_IP, IP_MULTICAST_TTL,
-//	(char *)&TTL, sizeof(TTL));
-retcode = setsockopt(Multi_Server_Sock, IPPROTO_IP, SO_BROADCAST,
+retcode = setsockopt(Multi_Server_Sock, IPPROTO_IP, IP_MULTICAST_TTL,
 	(char *)&TTL, sizeof(TTL));
+
 //retcode = setsockopt(socket(AF_INET, SOCK_DGRAM, 0),SOL_SOCKET, SO_BROADCAST,(char *)&TTL, sizeof(TTL));
 if (retcode < 0)
 {
