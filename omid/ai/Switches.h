@@ -67,6 +67,6 @@
 #define PORT_NUM_SEND_ERforce_COMMAND_BLUE		10301
 //#define GROUP_ADDR_SEND_ERforce_COMMAND	"172.25.0.12"//div a
 //#define GROUP_ADDR_SEND_ERforce_COMMAND	"172.20.0.6"//div c
-#define GROUP_ADDR_SEND_ERforce_COMMAND	"192.168.32.5"
+#define GROUP_ADDR_SEND_ERforce_COMMAND	"192.168.48.11"
 
 #endif
